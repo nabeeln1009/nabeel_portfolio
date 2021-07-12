@@ -21,7 +21,11 @@ if(isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response'
 
     $responseData = json_decode($verifyResponse);
     if($responseData->success):
+sscanf(s
+    s
+    s
 
+    s, format)
         try
         {
             $emailText = nl2br("You have new message from Contact Form\n");
